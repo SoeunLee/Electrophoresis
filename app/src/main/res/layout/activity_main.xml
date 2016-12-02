@@ -2,11 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#777"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#777"
     tools:context=".MainActivity">
 
     <ImageView
@@ -15,45 +15,84 @@
         android:layout_height="match_parent"
         android:layout_centerInParent="true" />
 
-    <LinearLayout
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_width="match_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true">
+
             <ImageButton
                 android:id="@+id/cameraButton"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
                 android:background="@android:color/transparent"
                 android:src="@drawable/ic_photo_camera_white_48dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAMERA"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="10dp"/>
         </LinearLayout>
 
 
-
-        <ImageButton
-            android:id="@+id/mediaButton"
-            android:layout_width="0dp"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:background="@android:color/transparent"
-            android:src="@drawable/ic_photo_white_48dp" />
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true">
 
-        <ImageButton
-            android:id="@+id/scanButton"
-            android:layout_width="0dp"
+            <ImageButton
+                android:id="@+id/mediaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_photo_white_48dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GALLERY"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:background="@android:color/transparent"
-            android:src="@drawable/ic_layers_white_48dp" />
+            android:orientation="vertical"
+            android:layout_alignParentRight="true">
 
-    </LinearLayout>
+            <ImageButton
+                android:id="@+id/scanButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_layers_white_48dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SCAN"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="10dp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
 
 
 </RelativeLayout>

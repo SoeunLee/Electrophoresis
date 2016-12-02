@@ -12,6 +12,33 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/soeun/AndroidStudioProjects/Electrophoresis/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/soeun/AndroidStudioProjects/Electrophoresis/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-21.0.3_a941b70d4b39bb1944d26adb5dfb7b8ed8b1e1f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/soeun/AndroidStudioProjects/Electrophoresis/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/soeun/AndroidStudioProjects/Electrophoresis/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-21.0.3_bd85644ce24f69bb1077457c81f2424f1614c777/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/soeun/AndroidStudioProjects/Electrophoresis/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a1932923b8213fadbdd3d23f207a14e78bf2acdc">
+        <dex dex="/Users/soeun/AndroidStudioProjects/Electrophoresis/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_211ee74c9f7e4c259c3c8f9e68c2b70f3341978f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/soeun/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="true"
         optimize="true"
@@ -30,12 +57,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/soeun/AndroidStudioProjects/Electrophoresis/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/soeun/AndroidStudioProjects/Electrophoresis/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-21.0.3_c84831be6bd62d1a6f3763672aa5f3033f853744/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/soeun/Downloads/AndroidScannerDemo-master 2/ScanDemoExample/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
         <dex dex="/Users/soeun/Downloads/AndroidScannerDemo-master 2/ScanDemoExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-21.0.3_cc474959c5b062effebdebf424665a905300a4bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/soeun/AndroidStudioProjects/Electrophoresis/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a8e74877887ca6ea972e24ba7ae3df33af1ffca0">
+        <dex dex="/Users/soeun/AndroidStudioProjects/Electrophoresis/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6ff1724216afa85fba3c539a035a42b691aa9371/classes.dex" />
     </item>
     <item
         is-multidex="true"

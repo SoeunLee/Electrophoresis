@@ -79,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="a8e74877887ca6ea972e24ba7ae3df33af1ffca0">
+        sha1="8e45461962e4afa775bbd5341ec4853849cc00a7">
         <dex dex="/Users/soeun/AndroidStudioProjects/Electrophoresis/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6ff1724216afa85fba3c539a035a42b691aa9371/classes.dex" />
     </item>
     <item

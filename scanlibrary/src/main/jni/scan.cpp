@@ -251,7 +251,7 @@ JNIEXPORT jobject JNICALL Java_com_scanlibrary_ScanActivity_getScannedBitmap
     AndroidBitmap_unlockPixels(env, bitmap);
     return _bitmap;
 }
-
+/*
 JNIEXPORT jobject JNICALL Java_com_scanlibrary_ScanActivity_getMagicColorBitmap
 (JNIEnv *env, jobject thiz,jobject bitmap)
 {
@@ -291,7 +291,7 @@ JNIEXPORT jobject JNICALL Java_com_scanlibrary_ScanActivity_getMagicColorBitmap
     return _bitmap;
 
 }
-
+*/
 JNIEXPORT jobject JNICALL Java_com_scanlibrary_ScanActivity_getBWBitmap
 (JNIEnv *env, jobject thiz,jobject bitmap)
 {
@@ -337,7 +337,7 @@ JNIEXPORT jobject JNICALL Java_com_scanlibrary_ScanActivity_getBWBitmap
 
 }
 
-JNIEXPORT jobject JNICALL Java_com_scanlibrary_ScanActivity_getGrayBitmap
+/*JNIEXPORT jobject JNICALL Java_com_scanlibrary_ScanActivity_getGrayBitmap
 (JNIEnv *env, jobject thiz,jobject bitmap)
 {
     __android_log_print(ANDROID_LOG_VERBOSE, APPNAME, "Scaning getGrayBitmap");
@@ -374,7 +374,7 @@ JNIEXPORT jobject JNICALL Java_com_scanlibrary_ScanActivity_getGrayBitmap
     AndroidBitmap_unlockPixels(env, bitmap);
     return _bitmap;
 }
-
+*/
 JNIEXPORT jfloatArray JNICALL Java_com_scanlibrary_ScanActivity_getPoints
 (JNIEnv *env, jobject thiz,jobject bitmap)
 {

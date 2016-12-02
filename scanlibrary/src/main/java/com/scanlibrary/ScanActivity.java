@@ -61,9 +61,9 @@ public class ScanActivity extends Activity implements IScanner {
 
     public native Bitmap getScannedBitmap(Bitmap bitmap, float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4);
 
-    public native Bitmap getGrayBitmap(Bitmap bitmap);
+    //public native Bitmap getGrayBitmap(Bitmap bitmap);
 
-    public native Bitmap getMagicColorBitmap(Bitmap bitmap);
+  //  public native Bitmap getMagicColorBitmap(Bitmap bitmap);
 
     public native Bitmap getBWBitmap(Bitmap bitmap);
 

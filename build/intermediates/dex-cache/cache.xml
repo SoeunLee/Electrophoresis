@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/soeun/Downloads/AndroidScannerDemo-master 2/ScanDemoExample/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e93e07eb624c943ee20bac1ea15d8b95cea8281b">
+        <dex dex="/Users/soeun/Downloads/AndroidScannerDemo-master 2/ScanDemoExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cd668a418e9a22522224cbf5af79c16a2bcb9d1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/soeun/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/soeun/Downloads/AndroidScannerDemo-master 2/ScanDemoExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-21.0.3_d48e4d03931884ff6d80e04dace0bdaf1f501be1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/soeun/Downloads/AndroidScannerDemo-master 2/ScanDemoExample/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/soeun/Downloads/AndroidScannerDemo-master 2/ScanDemoExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-21.0.3_bb446616361d10ff3e7493bda9b3e9539d152d46/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/soeun/Downloads/AndroidScannerDemo-master 2/ScanDemoExample/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/soeun/Downloads/AndroidScannerDemo-master 2/ScanDemoExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-21.0.3_cc474959c5b062effebdebf424665a905300a4bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/soeun/Downloads/AndroidScannerDemo-master 2/ScanDemoExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/soeun/Downloads/AndroidScannerDemo-master 2/ScanDemoExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-21.0.3_f6d405d724717eb7d7da12e2c7e697d4a52ef8a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/soeun/Downloads/AndroidScannerDemo-master 2/ScanDemoExample/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="c50a5b5ec71fd8148837325cc94220f979f3d182">
+        <dex dex="/Users/soeun/Downloads/AndroidScannerDemo-master 2/ScanDemoExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d45c0f4ff8a6e3e12e182dfe1ac6f4222fbd5769/classes.dex" />
+    </item>
+
+</items>

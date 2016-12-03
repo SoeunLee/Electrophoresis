@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="05ea15a2fff612b83dc3a94c72b7e11401a80336">
+        sha1="e59e17ec0b1cd3a4a8888da4f3668054a577cd92">
         <dex dex="/Users/soeun/AndroidStudioProjects/Electrophoresis/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_211ee74c9f7e4c259c3c8f9e68c2b70f3341978f/classes.dex" />
     </item>
     <item
@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="19d9545d6de05df180ff011090af695180327810">
+        sha1="85836574fc6f27c44a102e660e74bd92aa952acf">
         <dex dex="/Users/soeun/AndroidStudioProjects/Electrophoresis/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6ff1724216afa85fba3c539a035a42b691aa9371/classes.dex" />
     </item>
     <item

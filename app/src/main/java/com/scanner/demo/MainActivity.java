@@ -57,6 +57,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         init();
     }
+
     @Override
     public void onPause(){
         super.onPause();

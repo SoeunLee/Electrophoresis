@@ -43,13 +43,13 @@ public class ResultFragment extends Fragment {
         scannedImageView = (ImageView) view.findViewById(R.id.scannedImage);
         originalButton = (Button) view.findViewById(R.id.original);
         originalButton.setOnClickListener(new OriginalButtonClickListener());
-   /*     MagicColorButton = (Button) view.findViewById(R.id.magicColor);
-        MagicColorButton.setOnClickListener(new MagicColorButtonClickListener());
+//        MagicColorButton = (Button) view.findViewById(R.id.magicColor);
+//        MagicColorButton.setOnClickListener(new MagicColorButtonClickListener());
         grayModeButton = (Button) view.findViewById(R.id.grayMode);
         grayModeButton.setOnClickListener(new GrayButtonClickListener());
-  */
-        bwButton = (Button) view.findViewById(R.id.BWMode);
-        bwButton.setOnClickListener(new BWButtonClickListener());
+
+//        bwButton = (Button) view.findViewById(R.id.BWMode);
+//        bwButton.setOnClickListener(new BWButtonClickListener());
         Bitmap bitmap = getBitmap();
         setScannedImage(bitmap);
         doneButton = (Button) view.findViewById(R.id.doneButton);
@@ -93,14 +93,14 @@ public class ResultFragment extends Fragment {
             getActivity().finish();
         }
     }
-////////이진화////////
-    private class BWButtonClickListener implements View.OnClickListener {
-        @Override
-        public void onClick(View v) {
-            transformed = ((ScanActivity) getActivity()).getBWBitmap(original);
-            scannedImageView.setImageBitmap(transformed);
-        }
-    }
+//////////이진화////////
+//    private class BWButtonClickListener implements View.OnClickListener {
+//        @Override
+//        public void onClick(View v) {
+//            transformed = ((ScanActivity) getActivity()).getBWBitmap(original);
+//            scannedImageView.setImageBitmap(transformed);
+//        }
+//    }
 /*////////매직컬러////////
     private class MagicColorButtonClickListener implements View.OnClickListener {
         @Override
@@ -117,7 +117,7 @@ public class ResultFragment extends Fragment {
             scannedImageView.setImageBitmap(original);
         }
     }
-/*
+
     private class GrayButtonClickListener implements View.OnClickListener {
         @Override
         public void onClick(View v) {
@@ -125,5 +125,5 @@ public class ResultFragment extends Fragment {
             scannedImageView.setImageBitmap(transformed);
         }
     }
-*/
+
 }

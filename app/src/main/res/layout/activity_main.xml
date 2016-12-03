@@ -16,64 +16,63 @@
         android:layout_centerInParent="true" />
 
     <RelativeLayout
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true">
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_alignParentLeft="true">-->
+
+            <!--<ImageButton-->
+                <!--android:id="@+id/cameraButton"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@android:color/transparent"-->
+                <!--android:src="@drawable/ic_photo_camera_white_48dp" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="CAMERA"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:textSize="10dp"/>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_centerHorizontal="true">-->
+
+            <!--<ImageButton-->
+                <!--android:id="@+id/mediaButton"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@android:color/transparent"-->
+                <!--android:src="@drawable/ic_photo_white_48dp" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="GALLERY"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:textSize="10dp"/>-->
+        <!--</LinearLayout>-->
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_alignParentLeft="true">
-
-            <ImageButton
-                android:id="@+id/cameraButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@android:color/transparent"
-                android:src="@drawable/ic_photo_camera_white_48dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="CAMERA"
-                android:layout_gravity="center"
-                android:textColor="#ffffff"
-                android:textSize="10dp"/>
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_centerHorizontal="true">
-
-            <ImageButton
-                android:id="@+id/mediaButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@android:color/transparent"
-                android:src="@drawable/ic_photo_white_48dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="GALLERY"
-                android:layout_gravity="center"
-                android:textColor="#ffffff"
-                android:textSize="10dp"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_alignParentRight="true">
 
             <ImageButton
                 android:id="@+id/scanButton"
@@ -90,6 +89,28 @@
                 android:layout_gravity="center"
                 android:textColor="#ffffff"
                 android:textSize="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true">
+            <ImageButton
+                android:id="@+id/detectButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_equalizer_white_48dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DETECT"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="10dp"/>
+
         </LinearLayout>
 
     </RelativeLayout>

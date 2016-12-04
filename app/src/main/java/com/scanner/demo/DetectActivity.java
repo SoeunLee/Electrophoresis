@@ -89,7 +89,7 @@ public class DetectActivity extends Activity {
  //         Imgproc.equalizeHist(mat, mat);
             Imgproc.adaptiveThreshold(mat, mat, 255,
                     Imgproc.ADAPTIVE_THRESH_MEAN_C,
-                    Imgproc.THRESH_BINARY, blockSize, constant);
+                    Imgproc.THRESH_BINARY, 301, 3);
 
             Utils.matToBitmap(mat, bitmap);
             bitmap = bitmap.copy(Bitmap.Config.ARGB_8888, true);
